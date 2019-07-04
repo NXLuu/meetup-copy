@@ -1,0 +1,28 @@
+/*flex-grow {
+	flex-grow: 1;
+}*/
+
+.flex-categories {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categories {
+	font-family: 'Roboto', sans-serif;
+	color: #505050;
+	margin-left: 20px;
+	display: block;
+	width: 18%;
+}
+
+.categories .image{
+	height: 10rem;
+	background-color: #DDD;
+	display: block;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg");
+	background-size: cover;	
+	background-position: center;
+	border-radius: 5px;
+}

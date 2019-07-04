@@ -1,3 +1,6 @@
+.flex-grow {
+	flex-grow: 1;
+}
 .event-tag {
 	font-family: 'Roboto', sans-serif;
     display: block;
