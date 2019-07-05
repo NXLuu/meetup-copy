@@ -1,7 +1,3 @@
-/*flex-grow {
-	flex-grow: 1;
-}*/
-
 .flex-categories {
 	position: relative;
 	display: grid;
@@ -10,16 +6,16 @@
 	align-items: center;
 }
 
-.categories {
+.flex-categories .categories {
 	font-family: 'Roboto', sans-serif;
 	width: auto;
 	color: #505050;
-	margin-left: 20px;
+	margin-left: 1.25rem;
 	display: block;
 }
 
 .categories .image{
-	min-height: 160px;
+	min-height: 10rem;
 	box-sizing: border-box;
 	background-color: #DDD;
 	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg");
@@ -27,7 +23,7 @@
 	background-position: center;
 	border-radius: 7px;
 	background-clip: padding-box;
-	padding: 20px 20px 0px;
+	padding: 1.25rem 1.25rem 0rem;
 }
  
 @media only screen and (max-width: 768px) {
