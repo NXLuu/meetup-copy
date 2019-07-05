@@ -1,0 +1,36 @@
+.get-app {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20rem;
+}
+
+.get-app .important {
+	margin-right: 16.75rem;	
+}
+
+.phone-app-image {
+	width: 10rem;
+	height: 3rem;
+	padding-right: 1rem;
+}
+
+.phone-image {
+	width: 227.44px;
+	height: 100%;
+}
+
+.learn-more {
+	font-weight: 400;
+	text-decoration: none;
+	color: #00a2c7;
+	font-size: 1rem;
+	display: block;
+	padding-top: 0.25rem; 
+	margin-bottom: 2.5rem;
+}
+
+.learn-more .fa-arrow-right {
+	padding-left: 1rem;
+}
