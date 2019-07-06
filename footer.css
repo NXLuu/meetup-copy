@@ -1,0 +1,24 @@
+.foot {
+	background-color: #2f363f;
+}
+
+.footer {
+	padding: 20px;
+	height: 100px;
+	color: #FFF;
+	font-size: 14px
+}
+
+.footer ul {
+	display: flex;
+	list-style: none;
+}
+
+.footer li {
+	padding-right: 0.5rem;
+}
+
+.afterdoc:after {
+	content: "·";
+	padding-left: 0.5rem;
+}
