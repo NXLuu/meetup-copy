@@ -9,8 +9,9 @@
 	margin-right: auto;
 }
 
+
 .get-app .important {
-	margin-right: 16.75rem;	
+	margin-right: auto;	
 }
 
 .phone-app-image {
@@ -36,4 +37,31 @@
 
 .learn-more .fa-arrow-right {
 	padding-left: 1rem;
+}
+
+@media only screen and (max-width: 830px) {
+	.get-app {
+		width: 97.6%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.get-app {
+		flex-flow: column;
+		height: auto;
+	}
+
+	.get-app .important {
+		text-align: center;
+	}
+
+	.get-app .google-appstore {
+		width: 80%;
+		margin: auto;
+	}
+
+	.get-app .phone-app-image {
+		width: 40%;
+	} 
 }
