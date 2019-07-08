@@ -30,3 +30,18 @@
 .background-footer {
 	background-color: #2f363f;
 }
+
+@media only screen and (max-width: 640px) {
+	.footer {
+		text-align: center;
+	}
+
+	.footer ul {
+		flex-flow: column;
+	}
+
+	.afterdoc:after {
+	content: "";
+	padding-left: 0.5rem;
+}
+}
