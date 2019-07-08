@@ -1,15 +1,19 @@
 .foot {
 	background-color: #2f363f;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer {
-	padding: 20px;
-	height: 100px;
+	padding: 20px 0px;
+	height: 70px;
 	color: #FFF;
 	font-size: 14px
 }
 
 .footer ul {
+	padding-bottom: 1rem;
 	display: flex;
 	list-style: none;
 }
@@ -21,4 +25,23 @@
 .afterdoc:after {
 	content: "·";
 	padding-left: 0.5rem;
+}
+
+.background-footer {
+	background-color: #2f363f;
+}
+
+@media only screen and (max-width: 640px) {
+	.footer {
+		text-align: center;
+	}
+
+	.footer ul {
+		flex-flow: column;
+	}
+
+	.afterdoc:after {
+	content: "";
+	padding-left: 0.5rem;
+}
 }

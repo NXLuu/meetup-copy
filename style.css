@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	/*box-sizing: border-box;*/
+	overflow-x: hidden;
+}
+
+.grid-layout {
+}
+
+.grid-layout .main-web{
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.black-background {
+	background-color: #212121;
+	margin: 0px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 840px) {
+	.grid-layout .main-web {
+		margin: 20px;
+	}
+}

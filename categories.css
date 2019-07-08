@@ -1,34 +1,43 @@
 .flex-categories {
-	position: relative;
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	justify-content: center;
-	align-items: center;
+	margin-right: -52px;
+	display: block;
+	/*text-align: justify;*/
+/*	max-width: 1700px;
+}*/
 }
 
 .flex-categories .categories {
+	width: 24%;
 	font-family: 'Roboto', sans-serif;
-	width: auto;
 	color: #505050;
-	margin-left: 1.25rem;
-	display: block;
+	padding-right: 1.1rem;
+	padding-bottom: 1.5rem;
+	box-sizing: border-box;
+	display: inline-block;
+
 }
 
 .categories .image{
-	min-height: 10rem;
-	box-sizing: border-box;
+	min-height: 160px;
 	background-color: #DDD;
 	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg");
 	background-size: cover;	
 	background-position: center;
 	border-radius: 7px;
 	background-clip: padding-box;
-	padding: 1.25rem 1.25rem 0rem;
+	vertical-align: top;
+	/*padding: 1.25rem 1.25rem 0rem;*/
 }
  
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
+	.flex-categories .categories{
+		width: 48%;
+		margin: 0px;
+	}
 	.flex-categories {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+		/*margin-left: 10px;
+		margin-right: 10px;*/
+/*		margin-right: -16px;*/
+	/*	text-align: center;*/
 	}
 }
